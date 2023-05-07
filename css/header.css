@@ -1,6 +1,28 @@
 .navbar {
-    background-color: rgb(107, 142, 35);
+    background-color: rgb(105, 117, 81);
 }
-.nav-link {
+.text_link {
+    position: relative;
     color: rgb(1, 20, 1);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.text_link:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px;
+	background-color: #00a650;
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+
+.text_link:hover:after,
+.text_link:focus:after {
+	width: 100%; 
 }
