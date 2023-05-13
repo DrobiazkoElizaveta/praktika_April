@@ -106,25 +106,3 @@ body {
   .text_car {
     background-color: #5a5a5a79;
   }
-
-  .btn {
-    background-color: rgb(141, 158, 106);
-    border: rgb(103, 116, 79);
-  }
-  
-  .btn:hover {
-    background-color: rgb(72, 80, 57);
-  }
-  
-  .modal-body {
-    text-align: justify;
-    font-size: large;
-  }
-
-  .modal-body img {
-    text-align: center;
-  }
-
-  .modal-title {
-    text-align: center;
-  }

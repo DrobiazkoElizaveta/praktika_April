@@ -26,7 +26,3 @@
 .text_link:focus:after {
 	width: 100%; 
 }
-
-.navbar-brand {
-	margin-left: 50px;
-}
