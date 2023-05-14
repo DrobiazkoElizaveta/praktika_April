@@ -17,7 +17,7 @@
 	left: 0; 
 	width: 0;
 	height: 2px;
-	background-color: #004403;
+	background-color: #035707;
 	content: "";
 	transition: width 0.3s ease-out; 
 }
@@ -25,4 +25,8 @@
 .text_link:hover:after,
 .text_link:focus:after {
 	width: 100%; 
+}
+
+.logo {
+	margin-left: 40px;
 }
