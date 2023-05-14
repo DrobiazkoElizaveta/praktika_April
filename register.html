@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/free-icon-cosmetics-7976038.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Регистрация</title>
+  </head>
+  <body class="text-center">
+    
+<main class="form-signup w-100 m-auto">
+  <form class="needs-validation" novalidate>
+    <img class="mb-4" src="./img/free-icon-makeup-8220866.png" alt="" width="100">
+    <h1 class="h3 mb-3 fw-normal">Регистрация</h1>
+<div class="row">
+  <div class="col-sm-6 col-12 ">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Фамилия" value="" required>
+      <label for="floatingInput">Фамилия</label>
+      <div class="invalid-feedback">
+        Пожалуйста, введите свою фамилию!
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-12">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Имя" value="" required>
+      <label for="floatingInput">Имя</label>
+      <div class="invalid-feedback">
+        Пожалуйста, введите своё имя!
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-12">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="you@example.com" value="" required>
+      <label for="floatingInput">Почта</label>
+    <div class="invalid-feedback">
+      Пожалуйста, введите коректный адрес почты!
+    </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-12">
+    <div class="form-floating mb-3">
+      <input type="tel" class="form-control" id="floatingInput" placeholder="+7 (900) 123-45-67" 
+      pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" value="" required>
+      <label for="floatingInput">Телефон</label>
+    <div class="invalid-feedback">
+      Пожалуйста, введите номер телефона!
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-12 ">
+    <div class="form-floating mb-3">
+      <input type="password" class="form-control" id="myInput" placeholder="Введите пароль" value="" required>
+      <label for="floatingPassword">Введите пароль</label>
+      <div class="invalid-feedback">
+        Пожалуйста, введите пароль!
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-12">
+    <div class="form-floating mb-3">
+      <input type="password" class="form-control" id="myInputNow" placeholder="Введите пароль" value="" required>
+      <label for="floatingPassword">Повторите пароль</label>
+      <div class="invalid-feedback">
+        Пожалуйста, повторите пароль!
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div id="passwordHelpBlock" class="form-text text-center">
+  Ваш пароль должен состоять из 8-20 символов, содержать буквы и цифры и
+   не должен содержать пробелов, специальных символов или эмодзи.
+</div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" onclick="myFunction()"> Показать пароль
+      </label>
+    </div>
+    <script src="./js/login.js"></script>
+
+    <div class="col-mb-3"> 
+      <p>Есть аккаунт? <a href="./login.html">Вход</a></p>
+    </div>
+
+    <button class="btn w-40 btn-lg btn-primary" type="submit">Зарегистрироваться</button>
+    <p>Вернуться на <a href="./index.html">Главную</a></p>
+    <p class="mt-5 mb-3 text-muted">&copy; 2023 Beauty Cosmetics</p>
+</form>
+<script src="./js/kontakti.js"></script>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
