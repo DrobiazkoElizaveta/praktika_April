@@ -66,3 +66,8 @@
   .btn:hover {
     background-color: rgb(72, 80, 57);
   }
+
+  main {
+    font-family: 'Forum', cursive;
+    font-family: 'Roboto Slab', serif;
+  }

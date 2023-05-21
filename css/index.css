@@ -55,6 +55,11 @@ body {
     color: #5a5a5a;
   }
 
+  main {
+    font-family: 'Forum', cursive;
+    font-family: 'Roboto Slab', serif;
+  }
+
   .carousel {
     margin-bottom: 4rem;
     max-width: 1300px;
