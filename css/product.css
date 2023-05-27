@@ -2,3 +2,42 @@ main {
     font-family: 'Forum', cursive;
     font-family: 'Roboto Slab', serif;
   }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    width: 1000px;
+  }
+  input {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    border-radius:15px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+  }
+  
+  input:hover {
+    border: 1px solid #aaa;
+  }
+  
+  .btn {
+    background-color: rgb(141, 158, 106);
+    border: rgb(103, 116, 79);
+  }
+  
+  .btn:hover {
+    background-color: rgb(72, 80, 57);
+    color: #eee;
+  }
+
+  .text_sect {
+    margin-top: 120px;
+  }

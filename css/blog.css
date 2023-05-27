@@ -69,3 +69,7 @@
     font-family: 'Forum', cursive;
     font-family: 'Roboto Slab', serif;
   }
+
+  .cards_1 p {
+    font-size: larger;
+  }
